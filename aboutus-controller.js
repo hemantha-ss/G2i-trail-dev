@@ -1,6 +1,6 @@
 /*
  *  Copyright (c) 2015-2016 G2i, Inc. All Rights Reserved.
- *  Proprietary and Confidential G2i, Inc.
+ *  Proprietary and Confidential G2i, Inc. asdfasdfsadfasdfasdffffffffffffffffffffffffffffff
  */
 (function (angular) {
 
