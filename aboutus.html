@@ -1,0 +1,17 @@
+<!--
+    Copyright (c) 2015-2016 G2i, Inc. All Rights Reserved.
+    Proprietary and Confidential G2i, Inc.
+-->
+<ion-view>
+    <ion-header-bar class="app-header" align-title="center">
+        <button class="button  button-clear button-icon ion-ios-arrow-back button-positive app-back-icon" ng-click="backToDashboard()"></button>
+        <h1 class="title">{{ 'Forms.LabelAboutUs' | translate }}</h1>
+    </ion-header-bar>
+    <ion-content class="padding app-info-contents has-header has-footer">
+        <div class="padding-horizontal padding-top-remove" style="{{contentvisible}}" ng-bind-html="aboutUsContent.content">
+        </div>
+    </ion-content>
+    <!--Footer-->
+    <div ng-include="'app/templates/footerTmpl.html'"></div>
+    <!--/Footer-->
+</ion-view>
